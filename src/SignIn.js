@@ -63,7 +63,7 @@ const SignIn = () => {
       {adminclient && (
         <div className="admin-client">
           <button className="btn">
-            <Link to="/todo">Admin</Link>
+            <Link to="/adminpanel">Admin</Link>
           </button>
           <button className="btn" onClick={handlleClientData}>
             <Link to="/clientpanel">Client</Link>
