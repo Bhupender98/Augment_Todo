@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todo-container {
+  height: 80vh;
+  width: 30vw;
+  margin: 2rem auto;
+  border: 1px solid lightgray;
+}
+.input-container {
+    width: 100%;
+    height: 6vh;
+}
+.input-container input[type="text"] {
+  height: 100%;
+  width: 80%;
+  outline: none;
+  padding-left: 1rem;
+}
+.input-container button {
+  width: 20%;
+  height: 100%;
+  padding:0 0.5rem;
+  background: rgb(62, 62, 255);
+  color: #fff;
+  border: none;
+}
+/* todo-display */
+.todo-display {
+  height: 90%;
+}
+.todo-display .items {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  align-items: center;
+  padding: 0 0.8rem;
+  border: 1px solid lightgray;
+}
+.center-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete-btn{
+    height: 15px;
+    width: 15px;
+}
+/* Sign up form styling  */
+.login-sign {
+  width: 25vw;
+  height: auto;
+  border: 1px solid lightgray;
+  text-align: center;
+  margin: 10% auto;
+  padding:1rem 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.register {
+  height: 6vh;
+  background: rgb(59, 160, 228);
+  color: #fff;
+  font-size: 1.5rem;
+}
+.signup > div {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+.signup > div input {
+  width: 95%;
+  line-height: 2rem;
+  outline: none;
+  border: 1px solid lightgray;
+  padding-left: 0.7rem;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  background: rgb(31, 147, 224);
+  border: none;
+  color: #fff;
+  margin: 1rem;
+}
+.admin-client{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
